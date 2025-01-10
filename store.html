@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fashion Nova Inspired</title>
+  <style>
+    /* Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+    }
+
+    /* Navbar */
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #333;
+      padding: 10px 20px;
+    }
+
+    .navbar a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 16px;
+    }
+
+    .navbar a:hover {
+      text-decoration: underline;
+    }
+
+    /* Hero Section */
+    .hero {
+      position: relative;
+      text-align: center;
+      color: white;
+    }
+
+    .hero img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .hero h1 {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 3rem;
+      background: rgba(0, 0, 0, 0.5);
+      padding: 10px 20px;
+    }
+
+    /* Product Grid */
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .product-card {
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      overflow: hidden;
+      text-align: center;
+      transition: transform 0.3s;
+    }
+
+    .product-card:hover {
+      transform: scale(1.05);
+    }
+
+    .product-card img {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+    }
+
+    .product-card h3 {
+      font-size: 18px;
+      margin: 10px 0;
+    }
+
+    .product-card p {
+      color: #666;
+    }
+
+    .product-card button {
+      background: #333;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      margin: 10px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    .product-card button:hover {
+      background: #555;
+    }
+
+    /* Footer */
+    .footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 20px;
+    }
+
+    .footer a {
+      color: #ddd;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+
+    .footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <a href="#">Home</a>
+    <a href="#">Shop</a>
+    <a href="#">Sale</a>
+    <a href="#">New Arrivals</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <img src="https://via.placeholder.com/1500x500" alt="Hero Image">
+    <h1>Shop the Latest Trends</h1>
+  </section>
+
+  <!-- Product Grid -->
+  <section class="products">
+    <div class="product-card">
+      <img src="https://via.placeholder.com/300" alt="Product 1">
+      <h3>Product 1</h3>
+      <p>$29.99</p>
+      <button>Add to Cart</button>
+    </div>
+    <div class="product-card">
+      <img src="https://via.placeholder.com/300" alt="Product 2">
+      <h3>Product 2</h3>
+      <p>$39.99</p>
+      <button>Add to Cart</button>
+    </div>
+    <div class="product-card">
+      <img src="https://via.placeholder.com/300" alt="Product 3">
+      <h3>Product 3</h3>
+      <p>$19.99</p>
+      <button>Add to Cart</button>
+    </div>
+    <div class="product-card">
+      <img src="https://via.placeholder.com/300" alt="Product 4">
+      <h3>Product 4</h3>
+      <p>$49.99</p>
+      <button>Add to Cart</button>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2025 Fashion Nova Inspired. All Rights Reserved.</p>
+    <a href="#">Privacy Policy</a>
+    <a href="#">Terms of Service</a>
+  </footer>
+
+</body>
+</html>
+
